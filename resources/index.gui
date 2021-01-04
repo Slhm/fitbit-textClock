@@ -1,0 +1,11 @@
+<svg class="background">
+  <text id="seasonalText" />
+  <text id="timeLabel" >
+    the fucking time is
+  </text>
+  <text id="hourCounter" />
+  <text id="minuteCounter" />
+  <text id="secondCounter" />
+
+
+</svg>

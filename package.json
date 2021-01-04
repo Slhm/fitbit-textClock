@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "a0b2d8df-1c95-427e-b075-ba8494bf87c5",
+    "appType": "clockface",
+    "appDisplayName": "Minimalist Text Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Minimalist Text Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

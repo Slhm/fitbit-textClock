@@ -1,0 +1,46 @@
+.background {
+  viewport-fill: black;
+}
+
+#timeLabel {
+  font-size: 30;
+  font-family: "System-Bold";
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 20%+40;
+  fill: #808080;
+}
+
+#hourCounter {
+  font-size: 60;
+  font-family: 'System-Bold';
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 40%+40;
+  fill: white;
+}
+
+
+#minuteCounter {
+  font-size: 40;
+  font-family: 'System-Bold';
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 52%+40;
+  fill:  #b3b3b3;
+}
+
+#secondCounter {
+  font-size: 20;
+  font-family: 'System-Light';
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 60%+40;
+  fill: #BABABA;
+}
+
+
