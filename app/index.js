@@ -10,7 +10,10 @@ clock.granularity = "seconds";
 const hc = document.getElementById("hourCounter");
 const mc = document.getElementById("minuteCounter");
 //const sc = document.getElementById("secondCounter");
+const dateCounter = document. getElementById("dateCounter");
+
 const seasonalText = document.getElementById("seasonalText");
+
 
 
 // Update the <text> element every tick with the current time
@@ -30,7 +33,11 @@ clock.ontick = (evt) => {
   //let mins = util.zeroPad(today.getMinutes());
   let mins = util.toLetters(today.getMinutes());
   let secs = util.toLetters(today.getSeconds());
+  let date = util.toLetters(today.getDate());
+  let month = util.toLetters(today.getMonth() + 1);
+  let year = util.toLetters(today.getFullYear() - 2000);
   hc.text = `${hours}`;
   mc.text = `${mins}`;
+  dateCounter.text = `${date}/${month}-${year}`;
   //sc.text = `${secs}`;
 }

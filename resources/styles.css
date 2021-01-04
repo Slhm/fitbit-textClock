@@ -29,7 +29,7 @@
   text-length: 32;
   text-anchor: middle;
   x: 50%;
-  y: 52%+40;
+  y: 53%+40;
   fill:  #b3b3b3;
 }
 
@@ -43,4 +43,12 @@
   fill: #BABABA;
 }
 
-
+#dateCounter {
+  font-size: 20;
+  font-family: 'System-Light';
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 70%+40;
+  fill: #BABABA;
+}

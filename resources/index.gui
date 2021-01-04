@@ -6,6 +6,6 @@
   <text id="hourCounter" />
   <text id="minuteCounter" />
   <text id="secondCounter" />
-
+  <text id="dateCounter" />
 
 </svg>
